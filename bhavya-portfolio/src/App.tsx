@@ -163,12 +163,7 @@ function App() {
     alt="Bhavya Thakor"
   />
 </div>
-                  <br />
-                  to be added
-                </span>
-              </div>
-              <div className="portrait-caption">A work in progress, always.</div>
-            </div>
+        
 
             <div className="hero-copy">
               <p className="eyebrow">Curiosity · creativity · direction</p>
