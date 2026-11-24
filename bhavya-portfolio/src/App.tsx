@@ -153,7 +153,6 @@ function App() {
       <main>
         <section className="hero" id="home">
           <div className="hero-topline">
-                        <div className="hero-topline">
             <span>Bhavya Thakor</span>
             <span>Personal portfolio</span>
           </div>
@@ -341,29 +340,18 @@ function App() {
                     >
                       Visit project <ExternalLink size={16} />
                     </a>
-                  <div className="project-evidence">
-  <span className="detail-label">Project recognition</span>
-
-  <button
-    className="evidence-thumb"
-    onClick={() =>
-      setModal({
-        title: 'INSERT EXACT AWARD TITLE',
-        image: '/assets/veritas-ai-award.jpg',
-        description:
-          'Award recognition for BANGUJ Bridge / Veritas AI. Update this description using the exact details printed on the certificate.',
-      })
-    }
-  >
-    <img
-      src="/assets/veritas-ai-award.jpg"
-      alt="Veritas AI award certificate"
-    />
-    <span>
-      View award certificate <ArrowUpRight size={15} />
-    </span>
-  </button>
-</div>
+                                    <div className="project-evidence">
+                    <span className="detail-label">Project recognition</span>
+                    <a
+                      className="text-link"
+                      href="/assets/veritas-ai-award.jpg.pdf"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Veritas AI award certificate <ExternalLink size={16} />
+                    </a>
+                  </div>
+                </div>
 
                   <div className="project-expanded-visual bridge-expanded">
                     <div className="bridge-mini">
