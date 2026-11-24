@@ -157,12 +157,12 @@ function App() {
             <span>Personal portfolio</span>
           </div>
 
-          <div className="hero-layout">
-            <div className="portrait-wrap">
-              <div className="portrait-placeholder">
-                <span className="portrait-mark">BT</span>
-                <span className="portrait-note">
-                  Portrait photograph
+         <div className="portrait-placeholder portrait-photo">
+  <img
+    src="/assets/bhavya-portrait.jpg"
+    alt="Bhavya Thakor"
+  />
+</div>
                   <br />
                   to be added
                 </span>
