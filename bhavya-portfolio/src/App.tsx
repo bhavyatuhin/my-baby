@@ -153,7 +153,12 @@ function App() {
       <main>
         <section className="hero" id="home">
           <div className="hero-topline">
-                     <div className="hero-layout">
+                        <div className="hero-topline">
+            <span>Bhavya Thakor</span>
+            <span>Personal portfolio</span>
+          </div>
+
+          <div className="hero-layout">
             <div className="portrait-wrap">
               <div className="portrait-placeholder portrait-photo">
                 <img
